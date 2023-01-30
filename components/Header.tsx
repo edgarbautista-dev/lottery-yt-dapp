@@ -13,12 +13,13 @@ function Header() {
             </div>
             <div>
                 <h1 className={"text-lg text-white font-bold"}>Vellmond Draw</h1>
-                <p className={"text-xs text-emerald-500 truncate"}>User...</p>
+                <p className={"text-xs text-emerald-500 truncate"}>User...
+                </p>
             </div>
             <div>
-                <div className={"bg-emerald-900"}>
-                    <NavButton/>
-                    <NavButton/>
+                <div className={"bg-emerald-900 p-4 space-x-2"}>
+                    <NavButton isActive title={"Buy Tickets"}/>
+                    <NavButton title={"Logout"}/>
 
                 </div>
             </div>

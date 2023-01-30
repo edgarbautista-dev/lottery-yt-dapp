@@ -5,7 +5,7 @@ import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-emerald-900 main-h-screen flex flex-col">
+    <div className="bg-cyan-900 main-h-screen flex flex-col">
       <Head>
         <title>Vellmond draw</title>
       </Head>
