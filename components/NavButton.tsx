@@ -6,7 +6,10 @@ interface Props {
 }
 
 function NavButton({title, isActive}: Props) {
-        return <button className={`${isActive && "bg-emerald-600"} text-white py-2 px-4 rounded`}>{title}</button>;
+        return (
+            <button className={`${isActive && "bg-emerald-600"} text-white py-2 px-4 rounded font-bold`}>
+                {title}
+            </button>);
 
 
 
